@@ -1,0 +1,22 @@
+{
+    "customer_service_rules": {
+      "be_nice": "Always greet customers warmly and maintain a friendly demeanor throughout the interaction.",
+      "respect_customers": "Treat every customer with respect and acknowledge their value to the business.",
+      "listen": "Actively listen to customers' concerns without interruption to fully understand their issues.",
+      "be_positive": "Use positive language to convey information, focusing on solutions rather than limitations.",
+      "offer_solutions": "Provide clear and actionable solutions to address customers' problems without making excuses.",
+      "be_honest": "Communicate transparently about any mistakes and take responsibility where necessary.",
+      "go_extra_mile": "Exceed customer expectations by providing additional assistance or perks when possible.",
+      "apologize": "Offer sincere apologies when the company is at fault and work to rectify the situation.",
+      "ask_feedback": "Solicit customer feedback to improve services and show that their opinions matter.",
+      "say_thank_you": "Express gratitude to customers for their business and patience."
+    },
+    "managerial_escalation_guidelines": {
+      "unable_to_resolve": "If the issue is beyond your authority or expertise, escalate to a manager.",
+      "customer_requests_manager": "When a customer specifically asks to speak with a manager, comply promptly.",
+      "threats_or_escalations": "If a customer makes threats or becomes highly agitated, involve a manager immediately.",
+      "policy_exceptions": "For requests that require exceptions to company policy, seek managerial approval.",
+      "legal_or_safety_concerns": "Any situation involving legal implications or safety concerns should be escalated."
+    }
+  }
+  

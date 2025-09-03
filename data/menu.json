@@ -1,0 +1,865 @@
+{
+    "restaurant": "BurgerXpress",
+    "menu": {
+      "a_la_carte": [
+        {
+          "name": "Xpress Hamburger",
+          "description": "A classic hamburger with a beef patty and customizable toppings.",
+          "ingredients": [
+            {
+              "name": "Beef Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Pickles",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Ketchup",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Mustard",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Seasoning",
+              "can_remove": true,
+              "can_add_extra": false
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain hamburger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress Cheeseburger",
+          "description": "A classic hamburger with a slice of melted cheddar cheese.",
+          "ingredients": [
+            {
+              "name": "Beef Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_remove": false,
+              "can_add_extra": true
+            },
+            {
+              "name": "Pickles",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Ketchup",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Mustard",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Seasoning",
+              "can_remove": true,
+              "can_add_extra": false
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain cheeseburger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress S-Chicken",
+          "description": "A small chicken patty burger with lettuce and mayonnaise.",
+          "ingredients": [
+            {
+              "name": "Small Chicken Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Lettuce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Mayonnaise",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_add": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain chicken burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress Toast B",
+          "description": "A toast with bacon and elemental cheese.",
+          "ingredients": [
+            {
+              "name": "Bacon",
+              "can_remove": false,
+              "can_add_extra": true
+            },
+            {
+              "name": "Elemental Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress Toast H&C",
+          "description": "A toast with ham and elemental cheese.",
+          "ingredients": [
+            {
+              "name": "Ham",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Elemental Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            }
+          ]
+        },
+        {
+          "name": "Double Xpress Cheeseburger",
+          "description": "A double cheeseburger with two beef patties and double cheddar cheese.",
+          "ingredients": [
+            {
+              "name": "Beef Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Pickles",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Ketchup",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Mustard",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Seasoning",
+              "can_remove": true,
+              "can_add_extra": false
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain double cheeseburger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress Chicken Delight",
+          "description": "A chicken patty burger with lettuce and mayonnaise.",
+          "ingredients": [
+            {
+              "name": "Chicken Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Lettuce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Mayonnaise",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_add": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain chicken burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress Fish Filet",
+          "description": "A fish patty burger with cheddar cheese and tartar sauce.",
+          "ingredients": [
+            {
+              "name": "Fish Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Tartar Sauce",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain fish burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "The Burger Xpress",
+          "description": "A double beef patty burger with double cheddar cheese, lettuce, onions, and special sauce.",
+          "ingredients": [
+            {
+              "name": "Beef Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Cheddar Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Pickles",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Lettuce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "The Burger Xpress Sauce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Seasoning",
+              "can_remove": true,
+              "can_add_extra": false
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Grand Xpress Burger",
+          "description": "An XL beef patty burger with elemental cheese, tomato slices, lettuce, onions, and grand sauce.",
+          "ingredients": [
+            {
+              "name": "XL Beef Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Elemental Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Tomato Slices",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Lettuce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Grand Sauce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Seasoning",
+              "can_remove": true,
+              "can_add_extra": false
+            }
+          ],
+          "extras": [
+            {
+              "name": "Bacon",
+              "can_add": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Grand Xpress Burger Chicken",
+          "description": "An XL chicken patty burger with elemental cheese, tomato slices, lettuce, onions, and grand sauce.",
+          "ingredients": [
+            {
+              "name": "XL Chicken Patty",
+              "can_remove": true,
+              "can_add_extra": false
+            },
+            {
+              "name": "Elemental Cheese",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Tomato Slices",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Lettuce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Onions",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Grand Sauce",
+              "can_remove": true,
+              "can_add_extra": true
+            },
+            {
+              "name": "Bacon",
+              "can_remove": true,
+              "can_add_extra": true
+            }
+          ],
+          "special_requests": [
+            {
+              "name": "Plain",
+              "description": "A plain chicken burger with no toppings.",
+              "can_choose": true
+            }
+          ]
+        },
+        {
+          "name": "Xpress 7 Pack Nuggets",
+          "description": "7 chicken nuggets served with 1 free sauce/dip.",
+          "contains": [
+            {
+              "name": "Chicken Nuggets",
+              "quantity": 7
+            },
+            {
+              "name": "Free Sauce/Dip",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Xpress 10 Pack Nuggets",
+          "description": "10 chicken nuggets served with 2 free sauces/dips.",
+          "contains": [
+            {
+              "name": "Chicken Nuggets",
+              "quantity": 10
+            },
+            {
+              "name": "Free Sauce/Dip",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "name": "Xpress 20 Pack Nuggets",
+          "description": "20 chicken nuggets served with 3 free sauces/dips.",
+          "contains": [
+            {
+              "name": "Chicken Nuggets",
+              "quantity": 20
+            },
+            {
+              "name": "Free Sauce/Dip",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "name": "Xpress Chicken Strips",
+          "description": "4 chicken strips served with 1 free sauce/dip.",
+          "contains": [
+            {
+              "name": "Chicken Strips",
+              "quantity": 4
+            },
+            {
+              "name": "Free Sauce/Dip",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Xpress Spicy Wings",
+          "description": "6 spicy chicken wings.",
+          "contains": [
+            {
+              "name": "Spicy Chicken Wings",
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "name": "Xpress Chicken Feast",
+          "description": "A feast of 4 spicy chicken wings, 4 chicken strips, and 8 chicken nuggets, served with 3 free sauces/dips.",
+          "contains": [
+            {
+              "name": "Spicy Chicken Wings",
+              "quantity": 4
+            },
+            {
+              "name": "Chicken Strips",
+              "quantity": 4
+            },
+            {
+              "name": "Chicken Nuggets",
+              "quantity": 8
+            },
+            {
+              "name": "Free Sauce/Dip",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "name": "Fries",
+          "description": "Crispy golden fries.",
+          "sizes": [
+            {
+              "name": "Small"
+            },
+            {
+              "name": "Medium"
+            },
+            {
+              "name": "Large"
+            }
+          ]
+        },
+        {
+          "name": "Wedges",
+          "description": "Potato wedges.",
+          "sizes": [
+            {
+              "name": "Medium"
+            }
+          ]
+        },
+        {
+          "name": "Sauces / Dips",
+          "description": "A variety of sauces and dips.",
+          "options": [
+            {
+              "name": "Ketchup"
+            },
+            {
+              "name": "Mayonnaise"
+            },
+            {
+              "name": "Mustard"
+            },
+            {
+              "name": "Curry"
+            },
+            {
+              "name": "BBQ"
+            },
+            {
+              "name": "Sweet Chili"
+            },
+            {
+              "name": "Spicy"
+            },
+            {
+              "name": "Nacho Cheese"
+            },
+            {
+              "name": "Garlic Parmesan"
+            }
+          ]
+        },
+        {
+          "name": "Water",
+          "description": "500ml bottle of water with a 10-cent refundable deposit.",
+          "options": [
+            {
+              "name": "Still"
+            },
+            {
+              "name": "Sparkling"
+            }
+          ]
+        },
+        {
+          "name": "Juices",
+          "description": "330ml bottles of juice.",
+          "options": [
+            {
+              "name": "Apple"
+            },
+            {
+              "name": "Orange"
+            },
+            {
+              "name": "Multivitamin"
+            }
+          ]
+        },
+        {
+          "name": "Milkshake",
+          "description": "Creamy milkshake.",
+          "sizes": [
+            {
+              "name": "Small"
+            },
+            {
+              "name": "Medium"
+            }
+          ],
+          "flavors": [
+            {
+              "name": "Strawberry"
+            },
+            {
+              "name": "Vanilla"
+            },
+            {
+              "name": "Chocolate"
+            }
+          ]
+        },
+        {
+          "name": "Coffee",
+          "description": "Freshly brewed coffee.",
+          "sizes": [
+            {
+              "name": "Small"
+            },
+            {
+              "name": "Medium"
+            }
+          ],
+          "types": [
+            {
+              "name": "Americano"
+            },
+            {
+              "name": "Cappuccino"
+            },
+            {
+              "name": "Latte Macchiatto"
+            },
+            {
+              "name": "Espresso",
+              "size": "Extra Small"
+            }
+          ]
+        },
+        {
+          "name": "Soft Drinks",
+          "description": "Refreshing soft drinks.",
+          "sizes": [
+            {
+              "name": "Small"
+            },
+            {
+              "name": "Medium"
+            },
+            {
+              "name": "Large"
+            }
+          ],
+          "options": [
+            {
+              "name": "Pepsi"
+            },
+            {
+              "name": "Pepsi Max"
+            },
+            {
+              "name": "Sprite"
+            },
+            {
+              "name": "Fanta"
+            },
+            {
+              "name": "Ice-Tea Lemon"
+            },
+            {
+              "name": "Ice-Tea Peach"
+            },
+            {
+              "name": "Kinnie"
+            },
+            {
+              "name": "Dr. Pepper"
+            }
+          ]
+        }
+      ],
+"kids_menu": {
+      "food_options": [
+        {
+          "name": "Xpress Hamburger",
+          "description": "A classic hamburger with a beef patty and customizable toppings."
+        },
+        {
+          "name": "Xpress Cheeseburger",
+          "description": "A classic hamburger with a slice of melted cheddar cheese."
+        },
+        {
+          "name": "Xpress S-Chicken",
+          "description": "A small chicken patty burger with lettuce and mayonnaise."
+        },
+        {
+          "name": "Xpress Toast H&C",
+          "description": "A toast with ham and elemental cheese."
+        },
+        {
+          "name": "Xpress 5-Pack Nuggets",
+          "description": "5 chicken nuggets served with 1 free sauce/dip."
+        }
+      ],
+      "drinks": {
+        "size": "Small",
+        "options": [
+          {
+            "name": "Soft Drinks",
+            "sizes": ["Small"]
+          },
+          {
+            "name": "Milkshake",
+            "sizes": ["Small"]
+          },
+          {
+            "name": "Water",
+            "sizes": ["One Size"]
+          }
+        ]
+      },
+      "fries": {
+        "size": "Small"
+      },
+      "special_surprise": "Small Toy"
+    },
+    "meals": {
+      "options": [
+        {
+          "name": "Double Xpress Cheeseburger",
+          "description": "A double cheeseburger with two beef patties and double cheddar cheese."
+        },
+        {
+          "name": "Xpress Chicken Delight",
+          "description": "A chicken patty burger with lettuce and mayonnaise."
+        },
+        {
+          "name": "Xpress Fish Filet",
+          "description": "A fish patty burger with cheddar cheese and tartar sauce."
+        },
+        {
+          "name": "The Burger Xpress",
+          "description": "A double beef patty burger with double cheddar cheese, lettuce, onions, and special sauce."
+        },
+        {
+          "name": "Grand Xpress Burger",
+          "description": "An XL beef patty burger with elemental cheese, tomato slices, lettuce, onions, and grand sauce."
+        },
+        {
+          "name": "Grand Xpress Burger Chicken",
+          "description": "An XL chicken patty burger with elemental cheese, tomato slices, lettuce, onions, and grand sauce."
+        },
+        {
+          "name": "Xpress 7 Pack Nuggets",
+          "description": "7 chicken nuggets served with 1 free sauce/dip."
+        },
+        {
+          "name": "Xpress 10 Pack Nuggets",
+          "description": "10 chicken nuggets served with 2 free sauces/dips."
+        },
+        {
+          "name": "Xpress Spicy Wings",
+          "description": "6 spicy chicken wings."
+        }
+      ],
+      "sizes": [
+        {
+          "name": "Medium",
+          "fries": {
+            "size": "Medium"
+          },
+          "drinks": {
+            "options": [
+              {
+                "name": "Soft Drinks",
+                "sizes": ["Medium"]
+              },
+              {
+                "name": "Milkshake",
+                "sizes": ["Small"]
+              },
+              {
+                "name": "Coffee",
+                "sizes": ["Small"],
+                "exclusions": ["Espresso"]
+              },
+              {
+                "name": "Water",
+                "sizes": ["One Size"]
+              },
+              {
+                "name": "Juices",
+                "sizes": ["330ml"]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Large",
+          "fries": {
+            "size": "Large"
+          },
+          "wedges": {
+            "size": "Medium"
+          },
+          "drinks": {
+            "options": [
+              {
+                "name": "Soft Drinks",
+                "sizes": ["Large"]
+              },
+              {
+                "name": "Milkshake",
+                "sizes": ["Medium"]
+              },
+              {
+                "name": "Coffee",
+                "sizes": ["Medium"],
+                "exclusions": ["Espresso"]
+              },
+              {
+                "name": "Water",
+                "sizes": ["One Size"]
+              },
+              {
+                "name": "Juices",
+                "sizes": ["330ml"]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

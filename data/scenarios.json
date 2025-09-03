@@ -1,0 +1,35 @@
+{
+    "scenarios": [
+      "I got the wrong drink and I’m in a rush.",
+      "My fries were soggy and missing from the bag.",
+      "I waited 20 minutes for my burger and it came out cold.",
+      "The staff was rude when I asked for extra napkins.",
+      "My child’s meal toy was missing, and they were upset.",
+      "I ordered no pickles and my burger had extra pickles.",
+      "The order I received is completely someone else’s.",
+      "I was overcharged and my receipt shows an incorrect amount.",
+      "I found a hair in my burger and lost my appetite.",
+      "The app charged me, but my order didn’t go through.",
+      "The drive-thru line took way too long and I had to leave.",
+      "The drinks machine was out of the drink I ordered.",
+      "I asked for ketchup packets and got none in my bag.",
+      "My mobile order was marked ready, but it wasn’t at the counter.",
+      "The burger was undercooked and I’m concerned for my health.",
+      "The staff forgot my milkshake and I had to come back for it."
+    ],
+    "personalities": [
+      "angry",
+      "frustrated",
+      "nervous",
+      "calm",
+      "impatient",
+      "understanding",
+      "passive-aggressive",
+      "confused",
+      "apologetic",
+      "emotional",
+      "demanding",
+      "sarcastic"
+    ]
+  }
+  
